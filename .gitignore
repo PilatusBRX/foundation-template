@@ -6,3 +6,9 @@ src
 .cache
 .idea
 yarn.lock
+config.yml
+gulpfile.babel.js
+package-lock.json
+package.json
+readme.md
+src
