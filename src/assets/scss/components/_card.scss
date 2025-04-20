@@ -1,0 +1,21 @@
+.card {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  overflow: hidden;
+  
+  .card-divider {
+    background-color: #f7f7f7;
+  }
+  
+  .card-section {
+    padding: 1rem;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .button {
+    margin-bottom: 0;
+  }
+}

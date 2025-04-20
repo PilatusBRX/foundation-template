@@ -1,13 +1,8 @@
-# Arquivos de configuração
-config.yml
-readme.md
-
-# Pastas
-src/
-
-# Outros arquivos comuns para ignorar em projetos Foundation
-node_modules/
 .DS_Store
-.sass-cache/
-
-
+node_modules
+npm-debug.log
+dist
+*.swp
+.cache
+.idea
+yarn.lock

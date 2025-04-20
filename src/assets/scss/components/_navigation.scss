@@ -1,0 +1,25 @@
+.main-navigation {
+  background-color: #eeee;
+  
+  .menu {
+    padding: 0;
+    margin: 0;
+    
+    li {
+      a {
+        color: white;
+        padding: 1rem;
+        display: block;
+        transition: background-color 0.3s ease;
+        
+        &:hover, &.active {
+          background-color: darken(#eee, 10%);
+        }
+      }
+    }
+  }
+  
+  .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-color: white transparent transparent;
+  }
+}
