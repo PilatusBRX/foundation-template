@@ -1,8 +1,6 @@
 # Arquivos de configuração
 config.yml
 gulpfile.babel.js
-package-lock.json
-package.json
 readme.md
 
 # Pastas
