@@ -1,14 +1,14 @@
-.DS_Store
-node_modules
-npm-debug.log
-src
-*.swp
-.cache
-.idea
-yarn.lock
+# Arquivos de configuração
 config.yml
 gulpfile.babel.js
 package-lock.json
 package.json
 readme.md
-src
+
+# Pastas
+src/
+
+# Outros arquivos comuns para ignorar em projetos Foundation
+node_modules/
+.DS_Store
+.sass-cache/
