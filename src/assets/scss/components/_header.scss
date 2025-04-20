@@ -1,0 +1,27 @@
+header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 0;
+  
+  .logo {
+    display: inline-block;
+    img {
+      height: 40px;
+      width: auto;
+    }
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-form {
+    display: flex;
+    input {
+      margin-bottom: 0;
+      margin-right: 0.5rem;
+    }
+  }
+}
