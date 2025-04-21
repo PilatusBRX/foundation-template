@@ -1,0 +1,1 @@
+{"version":3,"file":"app.js","mappings":";;;;AACAA,CAAC,CAAC,YAAW;EACTC,KAAK,CAAC,0BAA0B,CAAC;AACrC,CAAC,CAAC,C","sources":["webpack://foundation-zurb-template/./src/assets/js/app.js"],"sourcesContent":["\n$(function() {\n    alert(\"jQuery está funcionando!\");\n});"],"names":["$","alert"],"sourceRoot":""}
