@@ -87,5 +87,11 @@
   </footer>  
 <script src="../../assets/js/jquery.js"></script>
 <script src="../../assets/js/app.js"></script>
+<script>
+  document.querySelectorAll('a[data-base-href]').forEach(link => {
+    const path = link.getAttribute('href');
+    link.href = "https://pilatusbrx.github.io/foundation-template" + path;
+  });
+</script>
 </body>
 </html>
