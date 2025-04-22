@@ -4,17 +4,17 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <title>Foundation for Sites</title>   
-     <base href="../../">
-    <link rel="stylesheet" href="../../assets/css/app.css">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Blog Foundation</title>
+    <base href="">
+    <link rel="stylesheet" href="assets/css/app.css">
   </head>
 <body>
   <header>
     <div class="container">
       <div class="header-content">
         <div class="logo">
-          <a href="/">
+          <a href="index.html">
             <img src="assets/img/logo.svg" alt="Foundation Project Logo">
           </a>
         </div>
@@ -27,28 +27,39 @@
     </div>
   </header>  <nav class="main-navigation">
     <div class="container">  
-           <li><a href="../../">Home</a></li>
-            <li><a href="../../blog">Blog</a></li>
-            <li><a href="../../contato">Contato</a></li> 
-        <li><a href="../../blog/o-que-e-sinforoso/">O que é sinforoso ?</a></li>  
+        <li><a href="">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contato.html">Contato</a></li>  
     </div>
   </nav>  
   <main>
-    <div class="section">
-      <div class="container">
-        <div class="grid-container">
-          <div class="grid-x grid-margin-x">
-            <div class="cell large-12">
-              <h1>O que é sinforoso ?</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-              
-              <p>Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
-            </div>
-          </div>
-        </div>
+    ```html
+    ---
+    layout: default
+    title: Blog
+    ---
+    
+    <div class="grid-x grid-padding-x">
+      <div class="cell">
+        <h1>Blog</h1>
+        <p class="lead">Confira nossos posts mais recentes</p>
       </div>
     </div>
     
+    <div class="grid-x grid-padding-x">
+      <div class="cell medium-6 large-4">
+        <div class="card">
+          <div class="card-divider">
+            <h4></h4>
+          </div>
+          <img src="" alt="">
+          <div class="card-section">
+            <p></p>
+            <a href="" class="button">Learn More</a>
+          </div>
+        </div>  </div>
+    </div>
+    ```
   </main>
   
   <footer>
@@ -62,9 +73,11 @@
         <div class="cell medium-4">
           <h5>Quick Links</h5>
           <ul>
-           
-            <li><a href="../../blog/o-que-e-sinforoso/">O que é sinforoso ?</a></li>
-           
+             <li><a href="">Home</a></li>
+            <li><a href="blog">Blog</a></li>
+            <li><a href="contato">Contato</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
           </ul>
         </div>
         
@@ -84,7 +97,7 @@
       </div>
     </div>
   </footer>  
-<script src="../../assets/js/jquery.js"></script>
-<script src="../../assets/js/app.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>

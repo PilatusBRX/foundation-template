@@ -36,27 +36,71 @@
     ```html
     ---
     layout: default
-    title: Home
+    title: Contato
     ---
     
     <div class="grid-x grid-padding-x">
       <div class="cell">
-        <div class="hero-banner">
-          <h1>Bem-vindo ao Mini Blog Foundation</h1>
-          <p class="lead">Um blog simples criado com Foundation CSS, Panini e variáveis SCSS.</p>
-          <a href="blog" class="button large">Ver Posts</a>
-        </div>
+        <h1>Entre em Contato</h1>
+        <p class="lead">Preencha o formulário abaixo para nos enviar uma mensagem.</p>
       </div>
     </div>
     
-    <div class="grid-x grid-padding-x featured-section">
-      <div class="cell medium-12">
-        <h2>Posts Recentes</h2>
+    <div class="grid-x grid-padding-x">
+      <div class="cell medium-8">
+        <form data-abide novalidate>
+          <div class="grid-x grid-padding-x">
+            <div class="cell medium-6">
+              <label>Nome
+                <input type="text" required>
+                <span class="form-error">Por favor, digite seu nome.</span>
+              </label>
+            </div>
+            <div class="cell medium-6">
+              <label>Email
+                <input type="email" required>
+                <span class="form-error">Por favor, digite um email válido.</span>
+              </label>
+            </div>
+          </div>
+          
+          <div class="grid-x grid-padding-x">
+            <div class="cell">
+              <label>Assunto
+                <input type="text" required>
+                <span class="form-error">Por favor, digite o assunto.</span>
+              </label>
+            </div>
+          </div>
+          
+          <div class="grid-x grid-padding-x">
+            <div class="cell">
+              <label>Mensagem
+                <textarea rows="5" required></textarea>
+                <span class="form-error">Por favor, digite sua mensagem.</span>
+              </label>
+            </div>
+          </div>
+          
+          <div class="grid-x grid-padding-x">
+            <div class="cell">
+              <button class="button" type="submit">Enviar</button>
+            </div>
+          </div>
+        </form>
       </div>
       
-      
-      <div class="cell medium-12 text-center">
-        <a href="blog" class="button">Ver todos os posts</a>
+      <div class="cell medium-4">
+        <div class="card">
+          <div class="card-divider">
+            <h3>Informações de Contato</h3>
+          </div>
+          <div class="card-section">
+            <p><strong>Email:</strong> contato@miniblog.com</p>
+            <p><strong>Telefone:</strong> (11) 1234-5678</p>
+            <p><strong>Endereço:</strong> Rua Exemplo, 123 - Cidade</p>
+          </div>
+        </div>
       </div>
     </div>
     ```
